@@ -1,0 +1,6 @@
+CREATE TABLE `api_mysql2_axios`.
+    `usuarios` (`id` INT(50) NOT NULL AUTO_INCREMENT , 
+    `email` VARCHAR(255) NOT NULL , 
+    `senha` VARCHAR(255) NOT NULL , 
+    PRIMARY KEY (`id`)) 
+ENGINE = InnoDB;
